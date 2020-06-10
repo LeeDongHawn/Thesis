@@ -80,13 +80,13 @@
  
 [3]특징 추출   
 *	주어진 문제를 풀기에 적합한 특징 추출(데이터 가공, 낮은 차원으로 변환)   
-*	데이터 기반 특징 추출   
-  *	PCA(principal component analysis)   
+  *	데이터 기반 특징 추출   
+  -	PCA(principal component analysis)   
     	주어진 데이터의 정보 손실을 최소화 하는 방향으로 특징 추출   
-  *	LDA(linear discriminant analysis)   
+  -	LDA(linear discriminant analysis)   
     	주어진 데이터의 클래스 간의 거리를 최대화 하는 방향으로 특징 추출
 *	데이터 고려하지 않고 특징 추출
-  *	데이터를 다른 차원으로 변환한 뒤 변환계수(transform coefficient)를 취함
+  -	데이터를 다른 차원으로 변환한 뒤 변환계수(transform coefficient)를 취함
     	Discrete Fourier transform, discrete cosine transform, discrete wavelet transform 등
 *	특정 도메인에 대한 사전 지식 기반 특징 추출
   	음성 신호 MFCC(Mel-frequency cepstral coefficient)
