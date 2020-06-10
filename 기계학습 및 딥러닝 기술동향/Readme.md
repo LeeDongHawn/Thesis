@@ -1,3 +1,7 @@
+문성은, 장수범, 이정혁, 이종석   
+기계학습 및 딥러닝 기술동향   
+한국통신학회지(정보와통신) 33(10), 2016.9, 49-56(8 pages)   
+
 [0]요약   
 1. 기계학습
 - 신경회로망
@@ -74,12 +78,21 @@
         	학습데이터에 대한 모델의 민감도    
         	분산값이 높으면 학습 데이터에 포함된 노이즈까지 기계학습 모델이 학습했음을 의미 과도학습(overfitting) 문제 발생    
  
+[3]특징 추출   
+*	주어진 문제를 풀기에 적합한 특징 추출(데이터 가공, 낮은 차원으로 변환)   
+*	데이터 기반 특징 추출   
+  *	PCA(principal component analysis)   
+    	주어진 데이터의 정보 손실을 최소화 하는 방향으로 특징 추출   
+  *	LDA(linear discriminant analysis)   
+    	주어진 데이터의 클래스 간의 거리를 최대화 하는 방향으로 특징 추출
+*	데이터 고려하지 않고 특징 추출
+  *	데이터를 다른 차원으로 변환한 뒤 변환계수(transform coefficient)를 취함
+    	Discrete Fourier transform, discrete cosine transform, discrete wavelet transform 등
+*	특정 도메인에 대한 사전 지식 기반 특징 추출
+  	음성 신호 MFCC(Mel-frequency cepstral coefficient)
+  	이미지 HoG(histogram of oriented gradient)
 
 
 
 
 
-
-문성은, 장수범, 이정혁, 이종석   
-기계학습 및 딥러닝 기술동향   
-한국통신학회지(정보와통신) 33(10), 2016.9, 49-56(8 pages)   
