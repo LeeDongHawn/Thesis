@@ -29,39 +29,39 @@
 
 [2]기계학습모델   
 1. 신경회로망(neural network)    
-	McCulloch-Pitts neuron(1943)   
-  	가중치가 곱해진 입력 값들의 합을 계산하여 그 합이 임계값을 넘으면 1, 아니면 0을 출력하는 인공 뉴런   
-	Rosenblatt(1957)   
+*	McCulloch-Pitts neuron(1943)   
+   가중치가 곱해진 입력 값들의 합을 계산하여 그 합이 임계값을 넘으면 1, 아니면 0을 출력하는 인공 뉴런   
+*	Rosenblatt(1957)   
   	퍼셉트론(입력 값에 곱해지는 가중치를 학습하는 인공신경망 모델)   
   	XOR과 같이 선형으로 분리되지 않는 문제는 해결 불가   
   	해결 : 다층 신경회로망(multi-layer neural network)    
-	다층 신경회로망(multi-layer neural network)   
+*	다층 신경회로망(multi-layer neural network)   
   	Hidden layer, hidden neuron 개수, activation function 선택 결정 필요함   
   	Universal approximation theorem         
     	국소적으로 한계가 있고(locally bounded) 구간별로 연속인(piecewise continuous) 비다항식의 활성함수를 가지는    
     한 층의 은닉뉴런으로 어떤 연속적인 함수도 학습할 수 있다.   
-	성능 측정
+*	성능 측정
 	평균제곱오차(mean square error)
 	크로스엔트로피(cross-entropy)
-	성능 학습
-	기울기 하강(gradient descent)을 이용한 오차역전파법(error back-propagation)
-	학습율 값이 클수록 학습 속도 빨라짐, 극값 수렴 못함, 발산 가능성 높아짐
-	국부최적화(local optimization) 문제
-	Global optimum에 도달하지 못하고 local optimum에 수렴
-	학습 데이터 입력 방식
-	Batch, mini-batch, online 등
-	학습 속도 향상
-	Error back-propagation 외 conjugate gradient backpropagation, quasi-Newton, Levenberg-Marquardt algorithm 등 존재.
-	[2.2] 기저벡터머신(support vector machine)
+*	성능 학습
+  	기울기 하강(gradient descent)을 이용한 오차역전파법(error back-propagation)
+  	학습율 값이 클수록 학습 속도 빨라짐, 극값 수렴 못함, 발산 가능성 높아짐
+  	국부최적화(local optimization) 문제
+  	Global optimum에 도달하지 못하고 local optimum에 수렴
+  	학습 데이터 입력 방식
+  	Batch, mini-batch, online 등
+  	학습 속도 향상
+  	Error back-propagation 외 conjugate gradient backpropagation, quasi-Newton, Levenberg-Marquardt algorithm 등 존재.
+2. 기저벡터머신(support vector machine)
 	결정경계와 각 클래스의 데이터 간의 최소 거리로 정의되는 마진을 최대화한다는 목적
-	[2.3] 확률 밀도 분포 추정법
+3. 확률 밀도 분포 추정법
 	각 클래스의 확률 밀도 분포 추정
 	Parzen’s window, Gaussian mixture model, hidden Markov model 등
 	모수(parametric) 추정법
 	최대우도추정(maximum likelihood estimation), 최대사후확률추정(maximum a posterior estimation), EM알고리즘(expectation-maximization algorithm) 등
 	비모수 추정법
 	K-NN(k-nearest neighbor), 의사결정트리(decision tree)
-	[2.4] 기계학습 모델 구축
+4. 기계학습 모델 구축
 	여러 선택지에서 같은 결과를 얻는다면 가장 단순한 방법이 가장 최적의 방법
 	편향-분산 트레이드 오프(bias-variance trade-off) 문제
 	평균제곱오차는 편향(bias), 분산(variance)로 나눌 수 있음(trade-off)
