@@ -81,7 +81,7 @@
 [3]특징 추출   
 *	주어진 문제를 풀기에 적합한 특징 추출(데이터 가공, 낮은 차원으로 변환)   
   *	데이터 기반 특징 추출   
-  -	PCA(principal component analysis)   
+    *	PCA(principal component analysis)   
     	주어진 데이터의 정보 손실을 최소화 하는 방향으로 특징 추출   
   -	LDA(linear discriminant analysis)   
     	주어진 데이터의 클래스 간의 거리를 최대화 하는 방향으로 특징 추출
