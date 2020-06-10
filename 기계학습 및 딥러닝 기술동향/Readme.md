@@ -56,17 +56,17 @@
   	결정경계와 각 클래스의 데이터 간의 최소 거리로 정의되는 마진을 최대화하는 목적 설정함으로 
   신경회로망보다 다양한 문제에 대해 강인     
 3. 확률 밀도 분포 추정법   
-  	각 클래스의 확률 밀도 분포 추정   
+  *	각 클래스의 확률 밀도 분포 추정   
     	Parzen’s window, Gaussian mixture model, hidden Markov model 등   
-  	모수(parametric) 추정법   
+  *	모수(parametric) 추정법   
     	최대우도추정(maximum likelihood estimation), 최대사후확률추정(maximum a posterior estimation),   
     EM알고리즘(expectation-maximization algorithm) 등   
-  	비모수 추정법   
+  *	비모수 추정법   
     	K-NN(k-nearest neighbor), 의사결정트리(decision tree)   
 4. 기계학습 모델 구축   
-  	여러 선택지에서 같은 결과를 얻는다면 가장 단순한 방법이 가장 최적의 방법   
-  	편향-분산 트레이드 오프(bias-variance trade-off) 문제   
-    	평균제곱오차는 편향(bias), 분산(variance)로 나눌 수 있음(trade-off)    
+  *	여러 선택지에서 같은 결과를 얻는다면 가장 단순한 방법이 가장 최적의 방법   
+  *	편향-분산 트레이드 오프(bias-variance trade-off) 문제   
+  * 평균제곱오차는 편향(bias), 분산(variance)로 나눌 수 있음(trade-off)    
       	편향(bias)   
         	모델을 학습하는데 있어 학습 데이터를 얼마나 유연하게 받아들일 것인가에 대한 지표   
         	편향값이 높으면 기계학습 모델이 제대로 학습되지 않는 과소학습(underfitting) 문제 발생    
